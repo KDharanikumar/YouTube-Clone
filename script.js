@@ -20,13 +20,13 @@ const ytdata = async (query) => {
 		let menuList1 = createElement("li", "class", "list-menu", "null", "", "null", "", "null", "", "");
 		let homelink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "target", "_blank", "null", "", "Home");
 		let menuList2 = createElement("li", "class", "list-menu", "null", "", "null", "", "null", "", "");
-		let chlink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "null", "", "null", "", "Channel");
+		let chlink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "target", "_blank", "null", "", "Channel");
 		let menuList3 = createElement("li", "class", "list-menu", "null", "", "null", "", "null", "", "");
-		let pllink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "null", "", "null", "", "PlayList");
+		let pllink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "target", "_blank", "null", "", "PlayList");
 		let menuList4 = createElement("li", "class", "list-menu", "null", "", "null", "", "null", "", "");
-		let sublink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "null", "", "null", "", "Subscription");
+		let sublink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "target", "_blank", "null", "", "Subscription");
 		let menuList5 = createElement("li", "class", "list-menu", "null", "", "null", "", "null", "", "");
-		let vidlink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "null", "", "null", "", "Videos");
+		let vidlink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "target", "_blank", "null", "", "Videos");
 		///////////////////////////////////////////////////////////////
 		let rightCol = createElement("div", "class", "col-lg-9", "null", "", "null", "", "null", "", "");
 		let rightRow = createElement("div", "class", "row", "null", "", "null", "", "null", "", "");
