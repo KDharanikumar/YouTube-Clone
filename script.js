@@ -18,7 +18,7 @@ const ytdata = async (query) => {
 		);
 		let ul = createElement("ul", "null", "", "null", "", "null", "", "null", "", "");
 		let menuList1 = createElement("li", "class", "list-menu", "null", "", "null", "", "null", "", "");
-		let homelink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "null", "", "null", "", "Home");
+		let homelink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "target", "_blank", "null", "", "Home");
 		let menuList2 = createElement("li", "class", "list-menu", "null", "", "null", "", "null", "", "");
 		let chlink = createElement("a", "href", "https://www.youtube.com/", "class", "list-link", "null", "", "null", "", "Channel");
 		let menuList3 = createElement("li", "class", "list-menu", "null", "", "null", "", "null", "", "");
