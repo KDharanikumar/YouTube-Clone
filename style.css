@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  font-family: "Poppins";
+}
+.container-fluid{
+      width: 90%;
+      margin: 2% auto;
+}
+.card{
+  margin: 5px;
+  }
+
+.card-title{
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-text{
+  display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+img{
+  width:40%!important;
+}
+
+ul{
+  line-height: 4em;
+}
+
+ul li{
+  list-style: none;
+}
+
+.btn-primary{
+  height: 20 px;
+  width: 100px;
+  text-align: center;
+
+}
+
+.btn{
+  border-radius: 25px!important;
+}
+
+.p-btn{
+  width:80%!important;
+  height:40px!important;
+}
+
+.card-img-top{
+  width:100%!important
+}
+
+.search-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.search-full{
+  width:80%;
+}
+
+.search-box{
+height:45px;
+width:80%;
+    padding: 8px;
+      border-radius: 10px;
+  margin-right: 10px;
+
+}
+.btn{
+  height: 45px;
+  width: 15%;
+}
+
+.uploadIcon{
+      background-color: #000000;
+        padding: 10px;
+        align-items: center;
+        display: flex;
+        border-radius: 10px;
+        color: #ffffff;
+}
+
+
+.list-menu > span{
+  margin-right:10px
+}
+a{
+  color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+  color:#ffffff
+}
+
+
+.dis {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-link,.list-link:hover{
+color:#000
+}
